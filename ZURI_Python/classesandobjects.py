@@ -35,7 +35,12 @@ class Student:
 
 #objects for student class
 Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
-        
+
+print('Student details:')  
+print('Name', Bob.name)
+print('Age', Bob.age)
+print('Tracks: ', Bob.tracks)
+print('Score: ', Bob.score)
 
 # Expected methods
 Bob.change_name("Peter")
