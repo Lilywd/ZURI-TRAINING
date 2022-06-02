@@ -14,7 +14,9 @@ while play:
         print("error! Please enter a valid choice!")
 
     if Player == CPU:
-         print(f"Both players selected {Player}. It's a tie!")
+        print(f"Both players selected {Player}. It's a tie!")
+        print("Game will restart")
+        continue
     
     if Player == "R" and  CPU == "S":
         print(f"Player {Player} : CPU {CPU}")
